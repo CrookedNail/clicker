@@ -1,0 +1,55 @@
+body::-webkit-scrollbar {
+    width: 0;
+}
+// Классы обводки предметов
+.item-common {
+    border: 2px solid $common !important;
+    background: rgba($common, 0.2) !important;
+    -webkit-user-drag: element;
+}
+
+.item-rare {
+    border: 2px solid $rare !important;
+    background: rgba($rare, 0.2) !important;
+    box-shadow: 0 0 1px #fff, 0 0 7px $rare !important;
+    -webkit-user-drag: element;
+}
+
+.item-epic {
+    border: 2px solid $epic !important;
+    background: rgba($epic, 0.2) !important;
+    box-shadow: 0 0 1px #fff, 0 0 3px $epic, 0 0 11px $epic !important;
+    -webkit-user-drag: element;
+}
+
+.item-legendary {
+    border: 2px solid $legendary !important;
+    background: rgba($legendary, 0.2) !important;
+    box-shadow: 0 0 1px #fff, 0 0 3px $legendary, 0 0 15px $legendary !important;
+    -webkit-user-drag: element;
+}
+
+// Размеры шрифта
+.text-title {
+    font-size: $title;
+}
+
+.text-subtitle {
+    font-size: $subtitle;
+}
+
+.text-regular {
+    font-size: $regular;
+}
+
+.text-base {
+    font-size: $base;
+}
+
+.text-small {
+    font-size: $small;
+}
+
+.text-very-small {
+    font-size: $very-small;
+}
